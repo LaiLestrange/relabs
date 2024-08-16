@@ -9,7 +9,7 @@ services:
     volumes:
       - data:/var/lib/postgres/data
     ports:
-      - 3000:3000
+      - 3322:3322
 
 #   frontend:
 
@@ -24,7 +24,7 @@ services:
     volumes:
       - ./backend:/app
     ports:
-      - 4000:4000
+      - 4422:4422
 
 #   redis:
 #   sidekiq:
