@@ -58,7 +58,7 @@ docker compose up --build
 
 Agora você pode acessar a aplicação utilizando o endereço:
 
-> Backend: `localhost:4000`
+> Backend: `localhost:4422`
 
 ### Endpoints
 ### Containers
