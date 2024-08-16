@@ -1,0 +1,3 @@
+backend/debug/*
+backend/.byebug_history
+backend/coverage/*

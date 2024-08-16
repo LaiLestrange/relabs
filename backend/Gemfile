@@ -1,0 +1,26 @@
+source 'http://rubygems.org'
+
+gem 'sinatra'
+gem 'puma'
+gem 'redis'
+gem 'sidekiq'
+
+gem 'rackup'
+gem 'rack'
+gem 'rack-cors'
+
+gem 'pg'
+gem 'csv'
+gem 'json'
+
+gem 'byebug'
+gem 'rubocop', require: false
+gem 'rubocop-capybara', require: false
+gem 'rubocop-rspec', require: false
+
+group :test do
+  gem 'rspec'
+  gem 'capybara'
+  gem 'simplecov', require: false
+  gem 'rack-test'
+end
