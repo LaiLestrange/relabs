@@ -1,4 +1,7 @@
 source 'http://rubygems.org'
 
+gem 'sinatra'
+gem 'rackup'
+gem 'puma'
 gem 'pg'
 gem 'csv'

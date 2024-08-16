@@ -1,7 +1,7 @@
 services:
   database:
     image: postgres:16.4
-    container_name: database_container
+    container_name: ctn_database
     environment:
       - POSTGRES_DB=db_name
       - POSTGRES_USER=db_user
@@ -9,9 +9,23 @@ services:
     volumes:
       - data:/var/lib/postgres/data
     ports:
-      - 3223:3223
+      - 3000:3000
+
 #   frontend:
-#   backend:
+
+  backend:
+    build:
+      context: ./backend
+    container_name: ctn_backend
+    depends_on:
+      - database
+    environment:
+      DATABASE_URL: postgres://db_user:db_pass@ctn_database/db_name
+    volumes:
+      - ./backend:/app
+    ports:
+      - 4000:4000
+
 #   redis:
 #   sidekiq:
 
