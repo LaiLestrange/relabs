@@ -53,8 +53,12 @@ cd relabs
 Execute o comando:
 
 ```bash
-docker compose up
+docker compose up --build
 ```
+
+Agora você pode acessar a aplicação utilizando o endereço:
+
+> Backend: `localhost:4000`
 
 ### Endpoints
 ### Containers
