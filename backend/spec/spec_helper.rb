@@ -6,7 +6,7 @@ require 'rack/test'
 require 'capybara'
 require 'capybara/rspec'
 require 'capybara/dsl'
-
+require 'byebug'
 
 Capybara.app = Sinatra::Application
 Capybara.save_path = './debug/'
