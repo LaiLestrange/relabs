@@ -14,11 +14,12 @@ gem 'csv'
 gem 'json'
 
 gem 'byebug'
-gem 'simplecov'
-gem 'rubocop'
+gem 'rubocop', require: false
+gem 'rubocop-rspec', require: false
 
 group :test do
   gem 'rspec'
   gem 'capybara'
+  gem 'simplecov', require: false
   gem 'rack-test'
 end
