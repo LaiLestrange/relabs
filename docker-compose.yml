@@ -1,0 +1,19 @@
+services:
+  database:
+    image: postgres:16.4
+    container_name: database_container
+    environment:
+      - POSTGRES_DB=db_name
+      - POSTGRES_USER=db_user
+      - POSTGRES_PASSWORD=db_pass
+    volumes:
+      - data:/var/lib/postgres/data
+    ports:
+      - 3223:3223
+#   frontend:
+#   backend:
+#   redis:
+#   sidekiq:
+
+volumes:
+  data:
