@@ -8,6 +8,9 @@ require 'capybara/rspec'
 require 'capybara/dsl'
 require 'byebug'
 require_relative '../app/app'
+require_relative '../db/db_conn'
+require_relative '../db/db_csv_import'
+
 
 Capybara.app = Sinatra::Application
 Capybara.save_path = './debug/'
