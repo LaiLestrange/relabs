@@ -60,6 +60,12 @@ Agora você pode acessar a aplicação utilizando o endereço:
 
 > Backend: `localhost:4422`
 
+Para rodar os testes, execute o comando a seguir em um outro terminal:
+
+```bash
+docker exec -it ctn_backend bundle exec rspec
+```
+
 ### Endpoints
 ### Containers
 
