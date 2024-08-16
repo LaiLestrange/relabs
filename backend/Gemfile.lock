@@ -86,6 +86,8 @@ GEM
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.32.0)
       parser (>= 3.3.1.0)
+    rubocop-capybara (2.21.0)
+      rubocop (~> 1.41)
     rubocop-rspec (3.0.4)
       rubocop (~> 1.61)
     ruby-progressbar (1.13.0)
@@ -133,6 +135,7 @@ DEPENDENCIES
   redis
   rspec
   rubocop
+  rubocop-capybara
   rubocop-rspec
   sidekiq
   simplecov

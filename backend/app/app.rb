@@ -6,5 +6,5 @@ def db_connection
 end
 
 get '/' do
-  "Hello, world! Sinatra está rodando com Puma e PostgreSQL."
+  'Hello, world! Sinatra está rodando com Puma e PostgreSQL.'
 end

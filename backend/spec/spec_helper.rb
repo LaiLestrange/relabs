@@ -2,7 +2,6 @@ ENV['RACK_ENV'] ||= 'test'
 
 require 'json'
 require 'sinatra'
-# require 'bundler/setup'
 require 'rack/test'
 require 'capybara'
 require 'capybara/rspec'
