@@ -1,7 +1,24 @@
 source 'http://rubygems.org'
 
 gem 'sinatra'
-gem 'rackup'
 gem 'puma'
+gem 'redis'
+gem 'sidekiq'
+
+gem 'rackup'
+gem 'rack'
+gem 'rack-cors'
+
 gem 'pg'
 gem 'csv'
+gem 'json'
+
+gem 'byebug'
+gem 'simplecov'
+gem 'rubocop'
+
+group :test do
+  gem 'rspec'
+  gem 'capybara'
+  gem 'rack-test'
+end
