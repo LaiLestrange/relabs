@@ -37,6 +37,25 @@ A premissa principal deste laboratório é que a app **não seja feita em Rails*
 ## Developing...
 
 ### Como Executar
+
+Clone o repositório na sua máquina:
+
+```bash
+git clone https://github.com/LaiLestrange/relabs.git
+```
+
+Entre na pasta em questão:
+
+```bash
+cd relabs
+```
+
+Execute o comando:
+
+```bash
+docker compose up
+```
+
 ### Endpoints
 ### Containers
 
