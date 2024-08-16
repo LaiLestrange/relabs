@@ -29,5 +29,17 @@ services:
 #   redis:
 #   sidekiq:
 
+  # test:
+  #   build:
+  #     context: ./backend
+  #   container_name: ctn_tests
+  #   command: bundle exec rspec
+  #   depends_on:
+  #     - database
+  #   environment:
+  #     DATABASE_URL: postgres://db_user:db_pass@ctn_database/db_name
+  #   volumes:
+  #     - ./backend:/app
+
 volumes:
   data:

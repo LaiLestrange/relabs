@@ -1,24 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/app/db/db_conn.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
-      }
     },
-    "timestamp": 1723808408
+    "timestamp": 1723810079
   }
 }

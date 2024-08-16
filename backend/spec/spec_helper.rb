@@ -1,4 +1,4 @@
-ENV['RACK_ENV'] ||= 'test'
+ENV['RACK_ENV'] = 'test'
 
 require 'json'
 require 'sinatra'
@@ -7,6 +7,7 @@ require 'capybara'
 require 'capybara/rspec'
 require 'capybara/dsl'
 require 'byebug'
+require_relative '../app/app'
 
 Capybara.app = Sinatra::Application
 Capybara.save_path = './debug/'
@@ -27,6 +28,10 @@ RSpec.configure do |config|
 
   config.shared_context_metadata_behavior = :apply_to_host_groups
 end
+
+# def app
+#   Sinatra::Application
+# end
 
 require 'simplecov'
 SimpleCov.start do
