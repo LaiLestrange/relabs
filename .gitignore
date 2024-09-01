@@ -1,3 +1,2 @@
-backend/debug/*
-backend/.byebug_history
-backend/coverage/*
+coverage
+.byebug_history
