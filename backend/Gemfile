@@ -12,6 +12,7 @@ gem 'rack-cors'
 gem 'pg'
 gem 'csv'
 gem 'json'
+gem 'unidecoder'
 
 gem 'byebug'
 gem 'rubocop', require: false

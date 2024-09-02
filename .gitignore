@@ -4,3 +4,4 @@ coverage
 
 # arquivos
 .byebug_history
+Gemfile.lock
