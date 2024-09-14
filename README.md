@@ -65,6 +65,11 @@ Para rodar os testes, execute o comando a seguir em um outro terminal:
 ```bash
 docker exec -it ctn_backend bundle exec rspec
 ```
+Para entrar no banco de dados via terminal, execute o comando a seguir:
+
+```bash
+docker exec -it ctn_database psql -d db_name -U db_user
+```
 
 ### Endpoints
 ### Containers

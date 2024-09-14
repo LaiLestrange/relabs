@@ -1,6 +1,12 @@
 require 'pg'
 
-class DatabaseConnection
+class ConnectDatabase
+
+  def self.connect
+    PG.connect(credentials)
+  end
+
+  private
 
   def self.credentials
     @credentials ||= {
@@ -9,9 +15,5 @@ class DatabaseConnection
       password: 'db_pass',
       dbname: 'db_name'
     }
-  end
-
-  def self.connect
-    PG.connect(credentials)
   end
 end

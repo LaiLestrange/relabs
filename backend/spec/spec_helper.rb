@@ -9,6 +9,7 @@ require 'capybara/dsl'
 require 'byebug'
 require_relative '../app/app'
 require_relative '../db/db_conn'
+require_relative '../db/db_manager'
 require_relative '../db/db_csv_import'
 
 
