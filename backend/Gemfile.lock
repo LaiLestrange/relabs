@@ -113,6 +113,7 @@ GEM
     strscan (3.1.0)
     tilt (2.4.0)
     unicode-display_width (2.5.0)
+    unidecoder (1.1.2)
     webrick (1.8.1)
     xpath (3.2.0)
       nokogiri (~> 1.8)
@@ -140,6 +141,7 @@ DEPENDENCIES
   sidekiq
   simplecov
   sinatra
+  unidecoder
 
 BUNDLED WITH
    2.5.6
