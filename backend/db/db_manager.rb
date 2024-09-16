@@ -20,7 +20,7 @@ class ManageDatabase
         data_exame DATE,
         tipo_exame VARCHAR(255),
         limites_tipo_exame VARCHAR(10),
-        resultado_tipo_exame VARCHAR(2)
+        resultado_tipo_exame VARCHAR(5)
       )
     SQL
 
